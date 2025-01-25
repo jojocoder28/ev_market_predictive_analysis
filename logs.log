@@ -1,0 +1,492 @@
+2025-01-25 17:02:11,273:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-25 17:02:11,273:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-25 17:02:11,273:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-25 17:02:11,273:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-25 17:02:19,291:INFO:Initializing load_model()
+2025-01-25 17:02:19,291:INFO:load_model(model_name=final_model.pkl, platform=None, authentication=None, verbose=True)
+2025-01-25 17:02:58,795:INFO:Initializing load_model()
+2025-01-25 17:02:58,795:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:03:20,428:INFO:Initializing load_model()
+2025-01-25 17:03:20,428:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:03:22,523:INFO:Initializing load_model()
+2025-01-25 17:03:22,523:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:03:24,912:INFO:Initializing load_model()
+2025-01-25 17:03:24,912:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:03:27,031:INFO:Initializing load_model()
+2025-01-25 17:03:27,031:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:03:28,287:INFO:Initializing load_model()
+2025-01-25 17:03:28,287:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:03:57,084:INFO:Initializing load_model()
+2025-01-25 17:03:57,084:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:04:01,297:INFO:Initializing load_model()
+2025-01-25 17:04:01,297:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:04:03,328:INFO:Initializing load_model()
+2025-01-25 17:04:03,328:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:04:03,357:INFO:Initializing predict_model()
+2025-01-25 17:04:03,358:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FBB77490>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0FA2DA5C0>)
+2025-01-25 17:04:03,358:INFO:Checking exceptions
+2025-01-25 17:04:03,358:INFO:Preloading libraries
+2025-01-25 17:04:03,358:INFO:Set up data.
+2025-01-25 17:04:03,363:INFO:Set up index.
+2025-01-25 17:04:41,835:INFO:Initializing load_model()
+2025-01-25 17:04:41,835:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:04:44,372:INFO:Initializing load_model()
+2025-01-25 17:04:44,372:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:04:44,401:INFO:Initializing predict_model()
+2025-01-25 17:04:44,401:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FA044090>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0FBA8A7A0>)
+2025-01-25 17:04:44,401:INFO:Checking exceptions
+2025-01-25 17:04:44,401:INFO:Preloading libraries
+2025-01-25 17:04:44,401:INFO:Set up data.
+2025-01-25 17:04:44,403:INFO:Set up index.
+2025-01-25 17:05:21,014:INFO:Initializing load_model()
+2025-01-25 17:05:21,014:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:05:23,262:INFO:Initializing load_model()
+2025-01-25 17:05:23,262:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:05:23,290:INFO:Initializing predict_model()
+2025-01-25 17:05:23,290:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FBD150D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0FBD18720>)
+2025-01-25 17:05:23,295:INFO:Checking exceptions
+2025-01-25 17:05:23,295:INFO:Preloading libraries
+2025-01-25 17:05:23,295:INFO:Set up data.
+2025-01-25 17:05:23,298:INFO:Set up index.
+2025-01-25 17:05:28,944:INFO:Initializing load_model()
+2025-01-25 17:05:28,944:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:05:32,176:INFO:Initializing load_model()
+2025-01-25 17:05:32,177:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:05:32,218:INFO:Initializing predict_model()
+2025-01-25 17:05:32,218:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FB7550D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0E182B9C0>)
+2025-01-25 17:05:32,218:INFO:Checking exceptions
+2025-01-25 17:05:32,218:INFO:Preloading libraries
+2025-01-25 17:05:32,218:INFO:Set up data.
+2025-01-25 17:05:32,220:INFO:Set up index.
+2025-01-25 17:06:40,417:INFO:Initializing load_model()
+2025-01-25 17:06:40,418:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:07:11,759:INFO:Initializing load_model()
+2025-01-25 17:07:11,759:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:07:27,902:INFO:Initializing load_model()
+2025-01-25 17:07:27,902:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:07:41,252:INFO:Initializing load_model()
+2025-01-25 17:07:41,252:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:07:46,201:INFO:Initializing load_model()
+2025-01-25 17:07:46,201:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:07:51,612:INFO:Initializing load_model()
+2025-01-25 17:07:51,612:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:07:55,369:INFO:Initializing load_model()
+2025-01-25 17:07:55,369:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:07:57,749:INFO:Initializing load_model()
+2025-01-25 17:07:57,749:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:07:58,714:INFO:Initializing load_model()
+2025-01-25 17:07:58,714:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:07:58,744:INFO:Initializing predict_model()
+2025-01-25 17:07:58,744:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FB71A290>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0EB52C540>)
+2025-01-25 17:07:58,744:INFO:Checking exceptions
+2025-01-25 17:07:58,744:INFO:Preloading libraries
+2025-01-25 17:07:58,745:INFO:Set up data.
+2025-01-25 17:07:58,747:INFO:Set up index.
+2025-01-25 17:16:58,715:INFO:Initializing load_model()
+2025-01-25 17:16:58,723:INFO:load_model(model_name=final_model.pkl, platform=None, authentication=None, verbose=True)
+2025-01-25 17:17:06,849:INFO:Initializing load_model()
+2025-01-25 17:17:06,849:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:17:09,885:INFO:Initializing load_model()
+2025-01-25 17:17:09,885:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:17:09,933:INFO:Initializing predict_model()
+2025-01-25 17:17:09,933:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FBD36650>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0FC64D6C0>)
+2025-01-25 17:17:09,934:INFO:Checking exceptions
+2025-01-25 17:17:09,934:INFO:Preloading libraries
+2025-01-25 17:17:09,934:INFO:Set up data.
+2025-01-25 17:17:09,936:INFO:Set up index.
+2025-01-25 17:17:21,942:INFO:Initializing load_model()
+2025-01-25 17:17:21,942:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:17:24,239:INFO:Initializing load_model()
+2025-01-25 17:17:24,239:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:17:24,285:INFO:Initializing predict_model()
+2025-01-25 17:17:24,285:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FB9E3790>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0F9E26FC0>)
+2025-01-25 17:17:24,286:INFO:Checking exceptions
+2025-01-25 17:17:24,286:INFO:Preloading libraries
+2025-01-25 17:17:24,286:INFO:Set up data.
+2025-01-25 17:17:24,288:INFO:Set up index.
+2025-01-25 17:18:14,774:INFO:Initializing load_model()
+2025-01-25 17:18:14,774:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:18:16,672:INFO:Initializing load_model()
+2025-01-25 17:18:16,672:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:18:16,714:INFO:Initializing predict_model()
+2025-01-25 17:18:16,714:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FB778990>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0FC79BB00>)
+2025-01-25 17:18:16,714:INFO:Checking exceptions
+2025-01-25 17:18:16,714:INFO:Preloading libraries
+2025-01-25 17:18:16,715:INFO:Set up data.
+2025-01-25 17:18:16,717:INFO:Set up index.
+2025-01-25 17:19:04,701:INFO:Initializing load_model()
+2025-01-25 17:19:04,702:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:19:06,937:INFO:Initializing load_model()
+2025-01-25 17:19:06,937:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:19:06,982:INFO:Initializing predict_model()
+2025-01-25 17:19:06,982:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FBB69650>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0FBA89800>)
+2025-01-25 17:19:06,982:INFO:Checking exceptions
+2025-01-25 17:19:06,982:INFO:Preloading libraries
+2025-01-25 17:19:06,982:INFO:Set up data.
+2025-01-25 17:19:06,985:INFO:Set up index.
+2025-01-25 17:20:10,312:INFO:Initializing load_model()
+2025-01-25 17:20:10,312:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:20:12,050:INFO:Initializing load_model()
+2025-01-25 17:20:12,053:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:20:12,091:INFO:Initializing predict_model()
+2025-01-25 17:20:12,092:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FC55DC50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0FBD06B60>)
+2025-01-25 17:20:12,092:INFO:Checking exceptions
+2025-01-25 17:20:12,093:INFO:Preloading libraries
+2025-01-25 17:20:12,093:INFO:Set up data.
+2025-01-25 17:20:12,097:INFO:Set up index.
+2025-01-25 17:24:15,734:INFO:Initializing load_model()
+2025-01-25 17:24:15,734:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:24:20,988:INFO:Initializing load_model()
+2025-01-25 17:24:20,989:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:24:21,073:INFO:Initializing predict_model()
+2025-01-25 17:24:21,074:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0FB9E31D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0FBA8ADE0>)
+2025-01-25 17:24:21,074:INFO:Checking exceptions
+2025-01-25 17:24:21,074:INFO:Preloading libraries
+2025-01-25 17:24:21,075:INFO:Set up data.
+2025-01-25 17:24:21,081:INFO:Set up index.
+2025-01-25 17:24:32,886:INFO:Initializing load_model()
+2025-01-25 17:24:32,886:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:25:09,823:INFO:Initializing load_model()
+2025-01-25 17:25:09,823:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:25:11,750:INFO:Initializing load_model()
+2025-01-25 17:25:11,750:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:25:20,524:INFO:Initializing load_model()
+2025-01-25 17:25:20,525:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:25:21,656:INFO:Initializing load_model()
+2025-01-25 17:25:21,656:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:28:35,139:INFO:Initializing load_model()
+2025-01-25 17:28:35,139:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:28:36,452:INFO:Initializing load_model()
+2025-01-25 17:28:36,452:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:32:25,709:INFO:Initializing load_model()
+2025-01-25 17:32:25,711:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:32:27,760:INFO:Initializing load_model()
+2025-01-25 17:32:27,760:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:32:45,863:INFO:Initializing load_model()
+2025-01-25 17:32:45,864:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:32:47,342:INFO:Initializing load_model()
+2025-01-25 17:32:47,342:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:33:41,538:INFO:Initializing load_model()
+2025-01-25 17:33:41,538:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:33:43,358:INFO:Initializing load_model()
+2025-01-25 17:33:43,358:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:34:02,129:INFO:Initializing load_model()
+2025-01-25 17:34:02,130:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:34:04,552:INFO:Initializing load_model()
+2025-01-25 17:34:04,552:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:35:05,698:INFO:Initializing load_model()
+2025-01-25 17:35:05,699:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:35:08,049:INFO:Initializing load_model()
+2025-01-25 17:35:08,049:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:35:31,294:INFO:Initializing load_model()
+2025-01-25 17:35:31,294:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:35:32,629:INFO:Initializing load_model()
+2025-01-25 17:35:32,629:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:35:44,394:INFO:Initializing load_model()
+2025-01-25 17:35:44,394:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:35:45,937:INFO:Initializing load_model()
+2025-01-25 17:35:45,938:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:35:53,262:INFO:Initializing load_model()
+2025-01-25 17:35:53,263:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:35:55,209:INFO:Initializing load_model()
+2025-01-25 17:35:55,209:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:37:03,454:INFO:Initializing load_model()
+2025-01-25 17:37:03,454:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:37:04,645:INFO:Initializing load_model()
+2025-01-25 17:37:04,645:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:38:27,883:INFO:Initializing load_model()
+2025-01-25 17:38:27,885:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:38:30,249:INFO:Initializing load_model()
+2025-01-25 17:38:30,249:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:39:31,022:INFO:Initializing load_model()
+2025-01-25 17:39:31,022:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:39:34,666:INFO:Initializing load_model()
+2025-01-25 17:39:34,666:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:40:41,527:INFO:Initializing load_model()
+2025-01-25 17:40:41,527:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:40:42,926:INFO:Initializing load_model()
+2025-01-25 17:40:42,927:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:42:00,263:INFO:Initializing load_model()
+2025-01-25 17:42:00,263:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:42:03,276:INFO:Initializing load_model()
+2025-01-25 17:42:03,276:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:42:03,321:INFO:Initializing predict_model()
+2025-01-25 17:42:03,321:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001B0E182E450>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Age', 'Annual Income (INR)',
+                                             'Vehicle Ownership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Preferred Features',
+                                             'Financing Options', 'Region',
+                                             'Gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding...
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=42)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001B0FC79C7C0>)
+2025-01-25 17:42:03,322:INFO:Checking exceptions
+2025-01-25 17:42:03,323:INFO:Preloading libraries
+2025-01-25 17:42:03,323:INFO:Set up data.
+2025-01-25 17:42:03,330:INFO:Set up index.
+2025-01-25 17:42:14,503:INFO:Initializing load_model()
+2025-01-25 17:42:14,503:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:47:50,909:INFO:Initializing load_model()
+2025-01-25 17:47:50,909:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:47:52,841:INFO:Initializing load_model()
+2025-01-25 17:47:52,841:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:48:09,175:INFO:Initializing load_model()
+2025-01-25 17:48:09,176:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:48:11,005:INFO:Initializing load_model()
+2025-01-25 17:48:11,005:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:48:21,399:INFO:Initializing load_model()
+2025-01-25 17:48:21,399:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:48:23,189:INFO:Initializing load_model()
+2025-01-25 17:48:23,189:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:48:38,099:INFO:Initializing load_model()
+2025-01-25 17:48:38,099:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:48:39,804:INFO:Initializing load_model()
+2025-01-25 17:48:39,804:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:48:45,075:INFO:Initializing load_model()
+2025-01-25 17:48:45,075:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:50:00,734:INFO:Initializing load_model()
+2025-01-25 17:50:00,734:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:50:03,903:INFO:Initializing load_model()
+2025-01-25 17:50:03,903:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:50:08,770:INFO:Initializing load_model()
+2025-01-25 17:50:08,770:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:50:46,119:INFO:Initializing load_model()
+2025-01-25 17:50:46,119:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:50:47,143:INFO:Initializing load_model()
+2025-01-25 17:50:47,143:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:51:17,161:INFO:Initializing load_model()
+2025-01-25 17:51:17,161:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:51:18,555:INFO:Initializing load_model()
+2025-01-25 17:51:18,556:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:51:22,889:INFO:Initializing load_model()
+2025-01-25 17:51:22,889:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:51:39,878:INFO:Initializing load_model()
+2025-01-25 17:51:39,878:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:51:41,206:INFO:Initializing load_model()
+2025-01-25 17:51:41,207:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:51:43,296:INFO:Initializing load_model()
+2025-01-25 17:51:43,296:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:51:44,957:INFO:Initializing load_model()
+2025-01-25 17:51:44,957:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:52:02,543:INFO:Initializing load_model()
+2025-01-25 17:52:02,543:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:52:03,707:INFO:Initializing load_model()
+2025-01-25 17:52:03,707:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:52:35,602:INFO:Initializing load_model()
+2025-01-25 17:52:35,602:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:52:37,592:INFO:Initializing load_model()
+2025-01-25 17:52:37,592:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2025-01-25 17:53:13,317:INFO:Initializing load_model()
+2025-01-25 17:53:13,317:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
