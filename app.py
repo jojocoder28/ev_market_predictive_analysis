@@ -6,23 +6,25 @@ from sklearn.cluster import KMeans
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 import seaborn as sns
-from pycaret.classification import load_model, predict_model
+# from pycaret.classification import load_model, predict_model, setup
 import joblib
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
+# from pycaret import setup
 
 load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 # Configure GenAI API
-genai.configure(api_key="API_KEY")
+genai.configure(api_key=API_KEY)
 gemini_model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Load saved model and encoders
 model_path = 'final_model'
 encoders_path = 'label_encoders.pkl'
-model = load_model(model_path)
+# model = load_model(model_path)
+model_log = joblib.load('log_reg_model_sklearn.pkl')
 label_encoders = joblib.load(encoders_path)
 
 # Configure Gemini API
@@ -54,8 +56,12 @@ def campaign_prediction_page():
         }
 
         input_df = pd.DataFrame([inputs])
-        prediction = predict_model(model, data=input_df)
-        campaign_target = "High Interest" if prediction['prediction_label'][0] == 1 else "Low Interest"
+        # df = pd.read_csv("dataset_individual.csv")
+        
+        # exp = setup(data=df, target='Interest in EVs')
+        
+        prediction = model_log.predict(input_df)
+        campaign_target = "High Interest" if prediction == 1 else "Low Interest"
 
         st.subheader("Prediction Result")
         st.write(f"Predicted Campaign Target: {campaign_target}")
@@ -73,6 +79,7 @@ def customer_clustering_page():
     st.header("Customer Clustering and Insights")
 
     df = pd.read_csv("dataset_individual.csv")
+    
 
     categorical_columns = ['Gender', 'Region', 'Vehicle Ownership', 'Interest in EVs', 'Preferred Features', 'Financing Options']
     label_encoders = {}
@@ -98,7 +105,7 @@ def customer_clustering_page():
         # st.write("Mean values for each feature:")
         # st.table(actual_means)
 
-        summary_prompt = f"Provide a business summary and recommendations for a customer segment with the following profile: {cluster_data.to_dict()}"
+        summary_prompt = f"Provide a business summary and recommendations for a customer segment with the following profile: Cluster {cluster} {cluster_data.to_dict()}"
         summary_response = gemini_model.generate_content(summary_prompt)
         summary = summary_response.text
 
